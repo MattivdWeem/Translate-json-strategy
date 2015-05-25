@@ -1,0 +1,33 @@
+
+{
+  "name": "mattivdweem/translate-json-strategy",
+  "type": "library",
+  "description": "json strategy for the Simple translation class set for PHP",
+  "keywords": ["Translation", "multilang", "json"],
+  "homepage": "http://github.com/MattivdWeem/Translate-json-strategy",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name": "Matti van de Weem",
+      "email": "mvdweem@gmail.com",
+      "role": "Developer",
+      "homepage": "http://www.mattivandeweem.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "MattivdWeem\\Translate\\JsonStrategy\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.0-dev"
+    }
+  }
+}
