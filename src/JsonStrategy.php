@@ -2,16 +2,16 @@
 
 /**
 
-The default language will use the default database handler for sellectiong your texts
+ The default language will use the default database handler for sellectiong your texts
 
  **/
 
 namespace MattivdWeem\Translate\JsonStrategy;
 
-use \MattivdWeem\Translate\Exceptions\FileNotFoundException;
-use \MattivdWeem\Translate\StrategyInterface;
-use \MattivdWeem\Translate\Translation;
-use \MattivdWeem\Translate\TranslationSet;
+use MattivdWeem\Translate\Exceptions\FileNotFoundException;
+use MattivdWeem\Translate\StrategyInterface;
+use MattivdWeem\Translate\Translation;
+use MattivdWeem\Translate\TranslationSet;
 
 class JsonStrategy implements StrategyInterface
 {
